@@ -1,0 +1,84 @@
+netsuite.employee Geoffrey_W_Routledge@s {
+  entityId = "Geoffrey W Routledge"
+  firstName = "Geoffrey"
+  middleName = "W"
+  
+  email = "geoffrey.routledge@salto.io"
+  isInactive = false
+  initials = "GWR"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2022-04-21T07:00:00.000Z"
+  title = "NS Administrator"
+  gender = "_omitted"
+  workCalendar = {
+    
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Default Work Calendar)"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Accountant)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Administrator)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Bookkeeper)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Employee Center)"
+        }
+      },
+      {
+        selectedRole = netsuite.role.instance.customrole_gwr_role_ar2
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Intranet Manager)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Retail Clerk)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Warehouse Manager)"
+        }
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  salutation = "Mr."
+  phone = "6047878594"
+  defaultAddress = "GWR<br>Mr.  Geoffrey W Routledge<br>4575 Glenwood Ave<br>North Vancouver WA 98008<br>United States"
+  homePhone = "6049856761"
+  
+  custom_custentity_slt_tax_reg = 7777777
+  _alias = "Geoffrey W Routledge"
+}
